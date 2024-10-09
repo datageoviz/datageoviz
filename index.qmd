@@ -11,3 +11,8 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```
 
 tes datageoviz
+
+```{r}
+library(tidyverse)
+glimpse(mtcars)
+```
