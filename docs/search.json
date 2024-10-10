@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "about",
-    "section": "",
-    "text": "I’m looking a job as a post-doctoral researcher. curriculum vitae\nI’m a PhD candidate in Statistics at the University of Wisconsin-Madison, where I am co-advised by Keith Levin and Karl Rohe. I study spectral methods for network analysis, causal inference, and causal inference on networks. You might know me from my work on broom, a popular open-source R package in the tidyverse.\nI blog about statistics, programming, and data. Some posts I’m particularly proud of:\n\noverfitting: a guided tour\nhypothesis testing by example\nfairness in repeated lotteries"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -26,5 +12,19 @@
     "title": "Data Geoviz Project",
     "section": "",
     "text": "Subscribe to new updates via RSS.\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "about",
+    "section": "",
+    "text": "I’m looking a job as a post-doctoral researcher. curriculum vitae\nI’m a PhD candidate in Statistics at the University of Wisconsin-Madison, where I am co-advised by Keith Levin and Karl Rohe. I study spectral methods for network analysis, causal inference, and causal inference on networks. You might know me from my work on broom, a popular open-source R package in the tidyverse.\nI blog about statistics, programming, and data. Some posts I’m particularly proud of:\n\noverfitting: a guided tour\nhypothesis testing by example\nfairness in repeated lotteries"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "posts",
+    "section": "",
+    "text": "No matching items"
   }
 ]
