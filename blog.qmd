@@ -1,0 +1,8 @@
+---
+title: "Data Geoviz Project"
+listing: 
+  contents: post
+  feed: true
+---
+
+Subscribe to new updates via [RSS](blog.xml).
