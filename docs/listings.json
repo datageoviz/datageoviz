@@ -1,7 +1,9 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/project/2024-dip/index.html"
+    ]
   },
   {
     "listing": "/posts.html",

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Muhammad Rendy Saputra">
+<meta name="dcterms.date" content="2019-08-21">
+<meta name="description" content="Modelling the 2018/19 diphtheria outbreak in Cox’s Bazar, Bangladesh.">
 
-<title>Data Geoviz - About</title>
+<title>Data Geoviz - Using real-time modelling to inform the response to a diphtheria outbreak</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,59 +23,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,7 +82,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -104,7 +92,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data Geoviz</span>
     </a>
   </div>
@@ -115,15 +103,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html" rel="" target="">
+    <a class="nav-link" href="../../posts.html" rel="" target="">
  <span class="menu-text">Post</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item compact">
@@ -148,39 +136,105 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Using real-time modelling to inform the response to a diphtheria outbreak</h1>
 </div>
 
+<div>
+  <div class="description">
+    <p>Modelling the 2018/19 diphtheria outbreak in Cox’s Bazar, Bangladesh.</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://github.com/muhammadrendysa">Muhammad Rendy Saputra</a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 21, 2019</p>
+    </div>
+  </div>
   
     
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.59350/h07jp-s9s54">10.59350/h07jp-s9s54</a>
+      </p>
+    </div>
+  </div>
   </div>
   
 
 </header>
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<p>On 10th November, 2017, a suspected case of diphtheria was reported at a Médecins Sans Frontières (MSF) clinic in Cox’s Bazar district, Bangladesh <span class="citation" data-cites="Finger2019-iw">(<a href="#ref-Finger2019-iw" role="doc-biblioref">Finger et al. 2019</a>)</span>. A bacterial infection, diphtheria was a major cause of childhood illness and death in the early 20th Century, before a vaccine was developed in the 1920s, then included in the WHO’s Expanded Programme on Immunization in the 1970s. In the following decades cases dropped dramatically, to the point where the disease was rarely seen in many countries. Between 2004 and 2017, there were only two diphtheria cases in the United States.</p>
+<p>Unfortunately, diphtheria outbreaks can still occur in places that have conditions like low vaccination coverage, reduced access to healthcare, limited access to water and sanitation, and high population density. In late 2017, one such place was a cluster of several large refugee camps in Cox’s Bazar district at the southeastern tip of Bangladesh. Between August and December 2017, over 625,000 ethnic Rohingya had fled into the area from neighbouring Myanmar, settling in makeshift camps.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-019-1288-7/MediaObjects/12916_2019_1288_Fig1_HTML.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Outbreak analysis timeline with respect to the epidemic curve (black line). Green lines show the timing of events relevant to analysis: reporting of the first case, involvement of modellers at LSHTM, MSF decision on bed numbers required and MSF handover of the treatment centre. Blue lines show the date on which each of the four LSHTM forecasts was communicated to MSF. <a href="https://doi.org/10.1186/s12916-019-1288-7">For details see the article published in BMC Medicine</a></figcaption>
+</figure>
 </div>
+<p>The site would become the world’s largest refugee camp, with evidence that there had been a long-term lack of healthcare access among these individuals. According to one survey performed by MSF in November 2017, less than a quarter of the children in the camps aged between 6 months and 5 years had been vaccinated against measles.</p>
+<p>MSF had previously worked with quantitative researchers at the London School of Hygiene &amp; Tropical Medicine (LSHTM) during other infectious disease outbreaks, including Ebola and cholera. When the diphtheria outbreak in Cox’s Bazar started to grow in scale, our two organisations collaborated to analyse the situation and develop analytical tools and mathematical models that could forecast how the outbreak might unfold. Our forecasts helped to inform MSF’s outbreak response plans – for example in terms of staffing and supply of diphtheria antitoxin used to treat severe cases – and to advocate for control measures with partners.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-019-1288-7/MediaObjects/12916_2019_1288_Fig3_HTML.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Total incidence over all age groups and locations (a–d) and bed need as forecasted by the model. Black lines show data as reported by 12 January 2018, red dots the adjusted incidence and blue lines and shaded areas the median and 2.5% and 97.5% percentiles according to 1000 model runs forecasting from 12 December (a), 20 December (b), 26 December (c) and 30 December (d). Forecasts of bed need issued on the same dates (e). The horizontal line shows the number of beds provided as of a decision taken on 14 December. <a href="https://doi.org/10.1186/s12916-019-1288-7">For details see the article published in BMC Medicine</a></figcaption>
+</figure>
 </div>
+<p>When we evaluated the performance of our models in the aftermath of the outbreak, we found that the first forecast overestimated the outbreak size, but forecasts improved dramatically in late December, when the epidemic started to slow down. This is a common challenge when forecasting disease outbreaks, and our analysis highlighted several factors that could be improved in future – such as the speed of model development and the type of model used – as well as other issues, like data quality, that are always a challenge in emergency situations like this.</p>
+<p>Besides these technical insights, our work showed that to maximise the benefits of real-time modelling for future outbreaks, we should encourage long-term, sustainable collaborations between epidemiological modellers and the organizations working on the outbreak response. For mathematical models to realise their full potential – and to prevent analysis that is disconnected from the field-reality – communication between outbreak responders and modellers is key. This can enable modellers to appreciate the context and operational challenges involved, and help responders to understand capabilities and limitations of models.</p>
+<p>Our study is a good example of why epidemiological analysis and modelling should be routinely incorporated in outbreak response, and for modellers to be involved at all stages, ranging from data collection, curation and analysis to intervention design and evaluation.</p>
+<p>Building on this work, Flavio Finger spent several weeks in Bangladesh in early 2018 assisting partners with on-the-ground data analysis. He was struck by the complexity of the situation there and the sheer scale of the humanitarian crisis, but also by how relatively simple analysis of available data can help improve understanding of ongoing outbreaks – and guide the resulting response.</p>
+
+
+<div id="quarto-appendix" class="default"><section id="note" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Note</h2><div class="quarto-appendix-contents">
+
+<p>Our article <a href="https://doi.org/10.1186/s12916-019-1288-7">Real-time analysis of the diphtheria outbreak in forcibly displaced Myanmar nationals in Bangladesh</a> published in BMC Medicine.</p>
+<p>This blog post has also been published in the BMC Blog “<a href="https://blogs.biomedcentral.com/on-medicine/2019/03/12/using-real-time-modeling-to-inform-the-response-to-a-diphtheria-outbreak/">On Medicine</a>”.</p>
 
 
 
-</main> <!-- /main -->
+</div></section><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Finger2019-iw" class="csl-entry" role="listitem">
+Finger, Flavio, Sebastian Funk, Kate White, M Ruby Siddiqui, W John Edmunds, and Adam J Kucharski. 2019. <span>“Real-Time Analysis of the Diphtheria Outbreak in Forcibly Displaced Myanmar Nationals in Bangladesh.”</span> <em>BMC Medicine</em> 17 (1): 58.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{rendy saputra2019,
+  author = {Rendy Saputra, Muhammad},
+  title = {Using Real-Time Modelling to Inform the Response to a
+    Diphtheria Outbreak},
+  date = {2019-08-21},
+  doi = {10.59350/h07jp-s9s54},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-rendy saputra2019" class="csl-entry quarto-appendix-citeas" role="listitem">
+Rendy Saputra, Muhammad. 2019. <span>“Using Real-Time Modelling to
+Inform the Response to a Diphtheria Outbreak.”</span> August 21, 2019.
+<a href="https://doi.org/10.59350/h07jp-s9s54">https://doi.org/10.59350/h07jp-s9s54</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

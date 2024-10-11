@@ -9,10 +9,15 @@ website:
     foreground: "dark"
     right:
       - href: index.qmd
-        text: Home
-      - posts.qmd
+        text: "Home"
+      - href: posts.qmd  
+        text: "Post"
       - text: "Project"
         href: blog.qmd
+      - icon: github
+        href: https://github.com/datageoviz
+      - icon: twitter
+        href: https://x.com/Muhamma65389479
 
 format:
   html:

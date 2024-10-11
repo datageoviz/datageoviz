@@ -13,5 +13,8 @@
   },
   "blog.qmd": {
     "blog.html": "7a04c541"
+  },
+  "project/2024-dip/index.qmd": {
+    "index.html": "7895517a"
   }
 }

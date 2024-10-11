@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -119,11 +119,21 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts.html" rel="" target="">
- <span class="menu-text">posts</span></a>
+ <span class="menu-text">Post</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
  <span class="menu-text">Project</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/datageoviz" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/Muhamma65389479" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -166,7 +176,34 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1566320400000" data-listing-file-modified-sort="1728645233718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./project/2024-dip/index.html"> <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-019-1288-7/MediaObjects/12916_2019_1288_Fig3_HTML.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./project/2024-dip/index.html">
+<h3 class="no-anchor listing-title">
+Using real-time modelling to inform the response to a diphtheria outbreak
+</h3>
+<div class="listing-subtitle">
 
+</div>
+<div class="listing-description">
+<p>Modelling the 2018/19 diphtheria outbreak in Cox’s Bazar, Bangladesh.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./project/2024-dip/index.html">
+<div class="listing-date">
+Aug 21, 2019
+</div>
+<div class="listing-author">
+Muhammad Rendy Saputra
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
