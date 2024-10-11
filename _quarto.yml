@@ -24,7 +24,7 @@ format:
     theme: ember.scss
     css: styles.css
     toc: true
-    linkcolor: black
+    linkcolor: blue
 
 editor: visual
 

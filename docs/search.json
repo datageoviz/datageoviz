@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "Data Geoviz Project",
     "section": "",
-    "text": "Subscribe to new updates via RSS.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nUsing real-time modelling to inform the response to a diphtheria outbreak\n\n\n\n\n\nModelling the 2018/19 diphtheria outbreak in Cox’s Bazar, Bangladesh.\n\n\n\n\n\n\nAug 21, 2019\n\n\nMuhammad Rendy Saputra\n\n\n\n\n\n\nNo matching items"
+    "text": "Subscribe to new updates via RSS.\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -26,19 +26,5 @@
     "title": "posts",
     "section": "",
     "text": "No matching items"
-  },
-  {
-    "objectID": "project/2024-dip/index.html",
-    "href": "project/2024-dip/index.html",
-    "title": "Using real-time modelling to inform the response to a diphtheria outbreak",
-    "section": "",
-    "text": "On 10th November, 2017, a suspected case of diphtheria was reported at a Médecins Sans Frontières (MSF) clinic in Cox’s Bazar district, Bangladesh (Finger et al. 2019). A bacterial infection, diphtheria was a major cause of childhood illness and death in the early 20th Century, before a vaccine was developed in the 1920s, then included in the WHO’s Expanded Programme on Immunization in the 1970s. In the following decades cases dropped dramatically, to the point where the disease was rarely seen in many countries. Between 2004 and 2017, there were only two diphtheria cases in the United States.\nUnfortunately, diphtheria outbreaks can still occur in places that have conditions like low vaccination coverage, reduced access to healthcare, limited access to water and sanitation, and high population density. In late 2017, one such place was a cluster of several large refugee camps in Cox’s Bazar district at the southeastern tip of Bangladesh. Between August and December 2017, over 625,000 ethnic Rohingya had fled into the area from neighbouring Myanmar, settling in makeshift camps.\nThe site would become the world’s largest refugee camp, with evidence that there had been a long-term lack of healthcare access among these individuals. According to one survey performed by MSF in November 2017, less than a quarter of the children in the camps aged between 6 months and 5 years had been vaccinated against measles.\nMSF had previously worked with quantitative researchers at the London School of Hygiene & Tropical Medicine (LSHTM) during other infectious disease outbreaks, including Ebola and cholera. When the diphtheria outbreak in Cox’s Bazar started to grow in scale, our two organisations collaborated to analyse the situation and develop analytical tools and mathematical models that could forecast how the outbreak might unfold. Our forecasts helped to inform MSF’s outbreak response plans – for example in terms of staffing and supply of diphtheria antitoxin used to treat severe cases – and to advocate for control measures with partners.\nWhen we evaluated the performance of our models in the aftermath of the outbreak, we found that the first forecast overestimated the outbreak size, but forecasts improved dramatically in late December, when the epidemic started to slow down. This is a common challenge when forecasting disease outbreaks, and our analysis highlighted several factors that could be improved in future – such as the speed of model development and the type of model used – as well as other issues, like data quality, that are always a challenge in emergency situations like this.\nBesides these technical insights, our work showed that to maximise the benefits of real-time modelling for future outbreaks, we should encourage long-term, sustainable collaborations between epidemiological modellers and the organizations working on the outbreak response. For mathematical models to realise their full potential – and to prevent analysis that is disconnected from the field-reality – communication between outbreak responders and modellers is key. This can enable modellers to appreciate the context and operational challenges involved, and help responders to understand capabilities and limitations of models.\nOur study is a good example of why epidemiological analysis and modelling should be routinely incorporated in outbreak response, and for modellers to be involved at all stages, ranging from data collection, curation and analysis to intervention design and evaluation.\nBuilding on this work, Flavio Finger spent several weeks in Bangladesh in early 2018 assisting partners with on-the-ground data analysis. He was struck by the complexity of the situation there and the sheer scale of the humanitarian crisis, but also by how relatively simple analysis of available data can help improve understanding of ongoing outbreaks – and guide the resulting response."
-  },
-  {
-    "objectID": "project/2024-dip/index.html#note",
-    "href": "project/2024-dip/index.html#note",
-    "title": "Using real-time modelling to inform the response to a diphtheria outbreak",
-    "section": "Note",
-    "text": "Note\n\nOur article Real-time analysis of the diphtheria outbreak in forcibly displaced Myanmar nationals in Bangladesh published in BMC Medicine.\nThis blog post has also been published in the BMC Blog “On Medicine”."
   }
 ]
