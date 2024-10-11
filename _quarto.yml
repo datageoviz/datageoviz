@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - posts.qmd
-      - text: "Blog"
+      - text: "Project"
         href: blog.qmd
 
 format:
